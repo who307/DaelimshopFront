@@ -18,7 +18,6 @@ import Pwdfind2 from "./Pwdfind2"
 import UploadProductPage from "./UploadProductPage"
 import DetailProductPage from "./DetailProductPage/DetailProductPage"
 
-import LandingPage from "./LandingPage";
 
 
 
@@ -271,18 +270,19 @@ class App extends Component {
           
 
         <Contents>
-          {/* {<Route
+          {<Route
             exact path='/'
             render={() =>
               <Main category={this.state.category} product={this.state.product} />
               
-            } /> } */}
-          <Route exact path="" component={LandingPage} />
+            } /> }
+          {/* <Route exact path="" component={LandingPage} /> */}
           <Route path="/UploadProductPage" component={UploadProductPage} />
           <Route path="/product/:productId" component={DetailProductPage} />
           <Route path="/Qna" component={QnA} />
           <Route path="/Notices" component={Notices} />
           <Route path="/Menu" component={Menu} />
+          <Route path="/Detail" component={Detail} />
 
         </Contents>
         <Route path="/signpage1" component={SignPage1} />
@@ -297,7 +297,7 @@ class App extends Component {
 
 
 
-        {/* <Route path="/product/:productId" component={Detail} /> */}
+        <Route path="/product/:productId" component={Detail} />
 
 
 
