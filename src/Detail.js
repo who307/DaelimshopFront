@@ -12,7 +12,7 @@ class Detail extends React.Component {
         trade: "교환불가",
         delivery: "택배 착불",
         area: "서울",
-        img: "https://barnimages.com/wp-content/uploads/2018/08/20180826-barnimages-005-770x513.jpg",
+        img: "https://images.pexels.com/photos/708774/pexels-photo-708774.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
         info: " 제품을 설명하는 공간입니다. "
     },sellerinfo : {
         id : "who307",
