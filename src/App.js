@@ -269,7 +269,7 @@ class App extends Component {
           
         <Contents>
           {<Route
-            exact path='/'
+            exact path='/shopFront'
             render={() =>
               <Main category={this.state.category} product={this.state.product} />
               

@@ -333,7 +333,7 @@ class Header extends Component {
         <MainNav>
           <NavDiv>
             <div>
-              <Link to="/">
+              <Link to="/shopFront">
                 <Logo>D</Logo>
                 <Title>중고장터</Title>   
               

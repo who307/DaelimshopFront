@@ -19,7 +19,7 @@ const Footer = () => {
         :중고장터 대표이사 문건후
       </Company>
       <Copyright>
-        Copyright ⓒ 2020.KimRyuMoon. All right reserved
+        Copyright ⓒ 2020.MoonGunWho. All right reserved
         </Copyright>
       <Question>
         고객센터 02-852-9632 ㅣ 제휴문의 who307@naver.com

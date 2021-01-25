@@ -68,7 +68,7 @@ function LoginPage(props) {
       <Div>
         <Close onClick={props.loginOpen} ><img src="./icon/clear-24px.svg" alt="" /></Close>
 
-        <Img src="../일러스트/people-welcoming-concept-with-foliage-background/2769504.jpg" alt="Welcome DaelimSecondHandShop" width="600px" height="400px"></Img>
+        <Img src="../public/일러스트/people-welcoming-concept-with-foliage-background/2769504.jpg" alt="Welcome DaelimSecondHandShop" width="600px" height="400px"></Img>
         <H4>장터에 오신것을</H4>
         <H1>환영합니다!</H1>
         <H5>서비스의 원활한 이용을 위해 로그인을 진행해 주시기 바랍니다.</H5>
