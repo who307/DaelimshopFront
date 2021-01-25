@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/shopFront/static/css/main.04eae753.chunk.css",
+    "main.js": "/shopFront/static/js/main.e49a5930.chunk.js",
+    "main.js.map": "/shopFront/static/js/main.e49a5930.chunk.js.map",
+    "runtime-main.js": "/shopFront/static/js/runtime-main.45e18f63.js",
+    "runtime-main.js.map": "/shopFront/static/js/runtime-main.45e18f63.js.map",
+    "static/js/2.82af09d0.chunk.js": "/shopFront/static/js/2.82af09d0.chunk.js",
+    "static/js/2.82af09d0.chunk.js.map": "/shopFront/static/js/2.82af09d0.chunk.js.map",
+    "index.html": "/shopFront/index.html",
+    "precache-manifest.e8a76b8f0d65011793fcfc1ca21f4ce5.js": "/shopFront/precache-manifest.e8a76b8f0d65011793fcfc1ca21f4ce5.js",
+    "service-worker.js": "/shopFront/service-worker.js",
+    "static/css/main.04eae753.chunk.css.map": "/shopFront/static/css/main.04eae753.chunk.css.map",
+    "static/js/2.82af09d0.chunk.js.LICENSE.txt": "/shopFront/static/js/2.82af09d0.chunk.js.LICENSE.txt",
+    "static/media/clear-24px.svg": "/shopFront/static/media/clear-24px.673767b2.svg",
+    "static/media/notes-24px.svg": "/shopFront/static/media/notes-24px.d0831404.svg",
+    "static/media/profile.png": "/shopFront/static/media/profile.9acfe78b.png",
+    "static/media/search-24px.svg": "/shopFront/static/media/search-24px.d378117f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45e18f63.js",
+    "static/js/2.82af09d0.chunk.js",
+    "static/css/main.04eae753.chunk.css",
+    "static/js/main.e49a5930.chunk.js"
+  ]
+}
