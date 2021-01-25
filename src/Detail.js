@@ -6,19 +6,19 @@ class Detail extends React.Component {
     super(props);
     this.state = {
       productDetail: {
-        title: "title(제목)ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ",
-        price: "1,000(가격)",
+        title: "자바 전공서적 판매",
+        price: "9,000",
         productState: "중고(상품상태)",
         trade: "교환불가",
         delivery: "택배 착불",
         area: "서울",
-        img: "/image/bird-932704_640.jpg",
-        info: " 직거래 합니다 상태좋음 "
+        img: "https://barnimages.com/wp-content/uploads/2018/08/20180826-barnimages-005-770x513.jpg",
+        info: " 제품을 설명하는 공간입니다. "
     },sellerinfo : {
         id : "who307",
         name : "문건후",
-        department : "모바일인터넷",
-        schoolnum : "201540209"
+        phoneNum : "01040544118",
+        address : "안산"
       }
     }
 
@@ -77,12 +77,12 @@ class Detail extends React.Component {
               <StateContent>{this.state.sellerinfo.name}</StateContent>
               </Sellerstate>
               <Sellerstate>
-              <SellerContent>학과 : </SellerContent>  
-              <StateContent>{this.state.sellerinfo.department}</StateContent>
+              <SellerContent>전화번호 : </SellerContent>  
+              <StateContent>{this.state.sellerinfo.phoneNum}</StateContent>
               </Sellerstate>  
               <Sellerstate>
-              <SellerContent>학번 : </SellerContent>
-              <StateContent>{this.state.sellerinfo.schoolnum}</StateContent>
+              <SellerContent>주소 : </SellerContent>
+              <StateContent>{this.state.sellerinfo.address}</StateContent>
               </Sellerstate> 
 
           </MyInfo>
